@@ -1,4 +1,5 @@
 void main(List<String> arguments) {
+
   var persons = <Person>[
     Person('Administrator', 32),
     Person('User', 52),
@@ -12,10 +13,10 @@ void main(List<String> arguments) {
   ];
 
   // Integer
-  persons.sort((p1, p2) => p1.age - p2.age);
+  //persons.sort((p1, p2) => p1.age - p2.age);
 
   // String
-  persons.sort((p1, p2) => p1.role.compareTo(p2.role));
+  //persons.sort((p1, p2) => p1.role.compareTo(p2.role));
 
   // Custom Sort
   persons.sort((p1, p2) {
